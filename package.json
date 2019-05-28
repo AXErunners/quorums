@@ -1,6 +1,6 @@
 {
   "name": "@axerunners/quorums",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DAPI Quorum helper library",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/axerunners/quorums#readme",
   "dependencies": {
     "big-integer": "^1.6.26",
-    "@axerunners/axecore-lib": "1.0.0-alpha.22",
+    "@axerunners/axecore-lib": "^0.17.0",
     "ip": "^1.1.5",
     "lodash": "^4.17.5",
     "randomstring": "^1.1.5",
