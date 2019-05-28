@@ -1,0 +1,36 @@
+{
+  "name": "@axerunners/quorums",
+  "version": "1.0.0",
+  "description": "DAPI Quorum helper library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/ --recursive",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axerunners/quorums.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axerunners/quorums/issues"
+  },
+  "homepage": "https://github.com/axerunners/quorums#readme",
+  "dependencies": {
+    "big-integer": "^1.6.26",
+    "@axerunners/axecore-lib": "1.0.0-alpha.22",
+    "ip": "^1.1.5",
+    "lodash": "^4.17.5",
+    "randomstring": "^1.1.5",
+    "sha256": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "~4.1.2",
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "mocha": "^5.0.1"
+  }
+}
